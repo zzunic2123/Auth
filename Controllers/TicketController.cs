@@ -96,7 +96,6 @@ public class TicketController : ControllerBase
         }
     }
     
-    
     [HttpGet("{id}")]
     public async Task<IActionResult> GetTicketDetails(Guid id)
     {
