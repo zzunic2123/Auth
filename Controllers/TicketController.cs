@@ -75,7 +75,7 @@ public class TicketController : ControllerBase
         _context.Tickets.Add(ticket);
         await _context.SaveChangesAsync();
 
-        string ticketUrl = $"https://be-fer-nrppw-windows-ew-g6h2ghb6gkajhxcj.westeurope-01.azurewebsites.net/tickets/{ticket.Id}";
+        string ticketUrl = $"https://fe-fer-nrppw-linux-ew-dhaaceegefaee2a4.westeurope-01.azurewebsites.net/tickets/{ticket.Id}";
 
 
         try
