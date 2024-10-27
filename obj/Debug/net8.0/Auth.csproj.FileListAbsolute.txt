@@ -122,3 +122,4 @@ C:\faks\NRPPW\labosi\1. labos\Auth\Auth\bin\Debug\net8.0\Microsoft.IdentityModel
 C:\faks\NRPPW\labosi\1. labos\Auth\Auth\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\faks\NRPPW\labosi\1. labos\Auth\Auth\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\faks\NRPPW\labosi\1. labos\Auth\Auth\obj\Debug\net8.0\Auth.sourcelink.json
+C:\faks\NRPPW\labosi\1. labos\Auth\Auth\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -56,6 +56,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.RequireHttpsMetadata = false;
     });
 
+builder.Services.AddHttpClient();
+
+
 
 var app = builder.Build();
 

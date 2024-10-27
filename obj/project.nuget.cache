@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bzoUMEGoj/O033pzduoHPZJ4GhtxA1dyYlrxQlVv5Ucf1JxE/c1Embcttdg9pfmusaZSXMASx/+0NAbJQRUBtA==",
+  "dgSpecHash": "IFivHm3vNtI=",
   "success": true,
   "projectFilePath": "C:\\faks\\NRPPW\\labosi\\1. labos\\Auth\\Auth\\Auth.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\zvoni\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\zvoni\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\zvoni\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\zvoni\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\zvoni\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512",
     "C:\\Users\\zvoni\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.10\\npgsql.entityframeworkcore.postgresql.8.0.10.nupkg.sha512",
     "C:\\Users\\zvoni\\.nuget\\packages\\qrcoder\\1.4.1\\qrcoder.1.4.1.nupkg.sha512",

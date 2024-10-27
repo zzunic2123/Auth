@@ -1,9 +1,11 @@
 ﻿using System.Drawing;
 using System.Drawing.Imaging;
+using System.Net.Http.Headers;
 using Auth.Data;
 using Auth.Data.Entities;
 using Auth.Models;
 using Microsoft.AspNetCore.Authorization;
+using Newtonsoft.Json.Linq;
 using QRCoder;
 
 
@@ -17,10 +19,13 @@ using Microsoft.EntityFrameworkCore;
 public class TicketController : ControllerBase
 {
     private readonly DataContext _context;
+    private readonly HttpClient _httpClient;
 
-    public TicketController(DataContext context)
+
+    public TicketController(DataContext context, HttpClient httpClient)
     {
         _context = context;
+        _httpClient = httpClient;
     }
 
     [HttpGet]
@@ -70,8 +75,7 @@ public class TicketController : ControllerBase
         _context.Tickets.Add(ticket);
         await _context.SaveChangesAsync();
 
-        // Generate QR code
-        string ticketUrl = $"http://localhost:5173/tickets/{ticket.Id}";
+        string ticketUrl = $"https://be-fer-nrppw-linux-ew-ascjaqcfa9d6c8ff.westeurope-01.azurewebsites.net/tickets/{ticket.Id}";
 
 
         try
@@ -110,4 +114,5 @@ public class TicketController : ControllerBase
             ticket.CreatedAt
         });
     }
+    
 }
